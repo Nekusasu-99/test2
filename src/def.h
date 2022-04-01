@@ -26,7 +26,7 @@ int pin8 = 30;//315
 int pin7 = 32;//270
 int pin5 = 36;//180
 int pin6 = 34;//225
-double line1,line2,line3,line4;
+double line1,line2,line3,line4,line5,line6,line7,line8;
 double ball0,ball45,ball90,ball135,ball180,ball225,ball270,ball315;
 double ball0d,ball45d,ball90d,ball135d,ball180d,ball225d,ball270d,ball315d;
 double lastball1, lastball2, lastball3, lastball4,lastball5, lastball6, lastball7, lastball8;
@@ -40,3 +40,4 @@ float P, I, D;
 unsigned long lasttime;
 double setdir, PIDPower, lastdir,nowdir0,nowdir,Power0;
 Adafruit_BNO055 bno = Adafruit_BNO055(55);
+
